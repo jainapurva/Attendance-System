@@ -1,0 +1,5 @@
+dataLocation = 'D:\\Apurva\\Attendance\\Data\\'
+imagesLocation = 'D:\\Apurva\\Attendance\\Data\\Images\\'
+textLocation = 'D:\\Apurva\\Attendance\\Data\\Text\\'
+attendanceLocation = 'D:\\Apurva\\Attendance\\Data\\AttendanceList\\'
+nameLocation = 'D:\\Apurva\\Attendance\\Data\\NameList\\'

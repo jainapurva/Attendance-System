@@ -105,7 +105,10 @@ def mark_attendance(df, imgList, colName,fileloc):
 	# for x in df.index:
 	# 	if df['First Name'][x] in present:
 	# 		df.at[x,colName] = 'P'
-	df[colName]=['P' if x in present else 'L' for x in df['First Name']]
+	if len(present) == 0:
+		df[colName]=''
+	else:
+		df[colName]=['P' if x in present else 'L' for x in df['First Name']]
 	#print(df)
 	#df[colName]=df[colName].fillna('L')
 	#df.replace('','L',inplace=True)

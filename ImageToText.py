@@ -194,18 +194,18 @@ def folder_traversing(fileloc):
 			folder_traversing(path+i)
 		else:
 			print('Attendance for: ',path+'\\'+i)
-			#if '6a' in i.lower():
-			#	attendance(excel=config.nameLocation+'6a-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
-			if '6b' in i.lower():
+			if '6a' in i.lower():
+				attendance(excel=config.nameLocation+'6a-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
+			elif '6b' in i.lower():
 				attendance(excel=config.nameLocation+'6b-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
-			#elif '6c' in i.lower():
-			#	attendance(excel=config.nameLocation+'6c-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
-			#elif '8a' in i.lower():
-			#	attendance(excel=config.nameLocation+'8a-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
-			#elif '8b' in i.lower():
-			#	attendance(excel=config.nameLocation+'8b-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
-			#elif '8c' in i.lower():
-			#	attendance(excel=config.nameLocation+'8c-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
+			elif '6c' in i.lower():
+				attendance(excel=config.nameLocation+'6c-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
+			elif '8a' in i.lower():
+				attendance(excel=config.nameLocation+'8a-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
+			elif '8b' in i.lower():
+				attendance(excel=config.nameLocation+'8b-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
+			elif '8c' in i.lower():
+				attendance(excel=config.nameLocation+'8c-attendance',d=os.path.split(path)[1],fileloc=path+'\\'+i+'\\')
 			else:
 				print('Error in path',path+'\\'+i)
 

@@ -1,6 +1,12 @@
 dataLocation = 'D:\\Apurva\\Attendance\\Data\\'
-imagesLocation = 'D:\\Apurva\\Attendance\\Data\\Images\\October\\'
+#imagesLocation = 'D:\\Apurva\\Attendance\\Data\\Images\\Images\\'
+imagesLocation = 'D:\\Apurva\\Attendance\\Data\\Images\\April\\'
 textLocation = 'D:\\Apurva\\Attendance\\Data\\Text\\'
 attendanceLocation = 'D:\\Apurva\\Attendance\\Data\\AttendanceList\\'
 nameLocation = 'D:\\Apurva\\Attendance\\Data\\NameList\\'
 nameListTxt = 'D:\\Apurva\\Attendance\\Data\\NamesText\\'
+classStartTime = '10:50:00'
+classes = ['8a','8b','8c']
+duplicateNames8a = ['shreya','saumya','jiya']
+duplicateNames8b = ['vanshika']
+duplicateNames8c = ['swastika', 'alveena']
